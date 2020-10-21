@@ -1,0 +1,202 @@
+{
+  "database": {
+    "host": "versa.pro",
+    "user": "versai",
+    "schema": "versai",
+    "database": "versai",
+    "password": ""
+  },
+  "rcon": {
+    "host": "versai.pro",
+    "port": 19132,
+    "password": "",
+    "commands": [
+      {
+        "command": "kick",
+        "description": "Kick a player!",
+        "usage": "<name:string> [reason:text]",
+        "aliases": []
+      },
+      {
+        "command": "ban",
+        "description": "Ban a player!",
+        "usage": "<name:string> [length:string|length:string] [reason:text]",
+        "aliases": []
+      },
+      {
+        "command": "unban",
+        "description": "Unban a player!",
+        "usage": "<name:string>",
+        "aliases": []
+      },
+      {
+        "command": "ban-ip",
+        "description": "IP Ban a player!",
+        "usage": "<name:string> [length:string|length:string] [reason:text]",
+        "aliases": []
+      },
+      {
+        "command": "unban-ip",
+        "description": "Unban a player's IP!",
+        "usage": "<name:string>",
+        "aliases": []
+      },
+      {
+        "command": "mute",
+        "description": "Mute a player!",
+        "usage": "<name:string> [length:string|length:string] [reason:text]",
+        "aliases": []
+      },
+      {
+        "command": "unmute",
+        "description": "Unmute a player!",
+        "usage": "<name:string>",
+        "aliases": []
+      },
+      {
+        "command": "group",
+        "description": "Change player groups",
+        "usage": "set <player: string> <group: string> [length: string] | addperm <player: string> <permission: string> | remperm <player: string> <permission: string>",
+        "aliases": [
+          "groups"
+        ]
+      },
+      {
+        "command": "onlinetime",
+        "description": "View how much time you've spent on the server",
+        "usage": "total|sessions|top",
+        "aliases": [
+          "ot"
+        ]
+      },
+      {
+        "command": "onlinestaff",
+        "description": "Which staff are online?",
+        "usage": "",
+        "aliases": [
+          "os"
+        ]
+      },
+      {
+        "command": "ls",
+        "description": "See the last time a player was on the server!",
+        "usage": "<player username>",
+        "aliases": []
+      },
+      {
+        "command": "alias",
+        "description": "Who's that player!",
+        "usage": "<player> <i|c|d>",
+        "aliases": []
+      },
+      {
+        "command": "freeze",
+        "description": "Freeze a player!",
+        "usage": "<name:string> [length:string|length:string] [reason:text]",
+        "aliases": []
+      },
+      {
+        "command": "unfreeze",
+        "description": "Unfreeze a player!",
+        "usage": "<name:string>",
+        "aliases": [
+          "thaw"
+        ]
+      },
+      {
+        "command": "status",
+        "description": "Reads back the server's performance.",
+        "usage": "",
+        "aliases": []
+      },
+      {
+        "command": "say",
+        "description": "Broadcasts the given message as the sender",
+        "usage": "<message ...>",
+        "aliases": []
+      },
+      {
+        "command": "restart",
+        "description": "Restart the server!",
+        "usage": "get | set <seconds: int>",
+        "aliases": []
+      },
+      {
+        "command": "list",
+        "description": "List online players!",
+        "usage": "",
+        "aliases": []
+      },
+      {
+        "command": "rconchat",
+        "description": "Logs chat for printing in RCON",
+        "usage": "start | stop | clear | printclear | print",
+        "aliases": []
+      }
+    ]
+  },
+  "application": {
+    "applications_category_id": "",
+    "message_start": "Application started, Please answer the following questions for the {type} application.\nAt any time you can type cancel to stop or skip to skip a question.",
+    "message_end": "Your application has been submitted. Thanks for applying for {type} on {server_name}.",
+    "types": {
+      "staff": [
+        "How old are you?",
+        "What is your in game name?",
+        "What alts have you used on Versai? This will be checked so be honest.",
+        "What platforms do you play on? (Console, iOS, Android, Windows 10)",
+        "What country are you from?",
+        "What is your current country of residence?",
+        "What is your time zone?",
+        "What languages can you fluently speak?",
+        "Have you ever been banned on Versai? If so, list the banned IGN(s) and the reason(s).",
+        "Are you currently staff elsewhere? If so, what server(s) and what rank do you hold.",
+        "Whats your availiability? Please list an estimate of the hours you can play each day of the week.",
+        "Is your device capable of recording Minecraft footage?",
+        "Name three staff members who you believe do their job well and explain why you have selected them. (If you only know 1-2 staff members then name them)",
+        "Name three staff members that you believe are not doing a good job and state the reasons.",
+        "Are you able to help bring additional players to Versai? If so, how?",
+        "What do you like most about Versai and why?",
+        "What do you dislike most about Versai and why? (There's no right or wrong answer, we use this information to make our server a better place for the community, so be honest.)",
+        "If you could change on thing about Versai, what would it be?",
+        "Why do you want to be staff on Versai?",
+        "You're on the server and reports are coming in rapidly. You noticed staff are casually playing on the server in disguise. What would you do?",
+        "You're being messaged by two players. One is asking for you to teleport to a hacker and the other is swearing at you for no reason. What would you do?",
+        "If you are in a 1v1, and a player tells you that the person they're fighting is suspicious, what would you do?",
+        "You've become good friends with a staff member. One day they duel you and you suspect they are cheating. What would you do?",
+        "A staff member sends you a message on discord asking for you to ban a player, what would you do?",
+        "Do you have any past server moderation experience on other servers?",
+        "What does being staff mean to you?",
+        "Illustrate your Minecraft history. (When did you start playing, Why did you start playing it? What made you come to Versai?)",
+        "What else should we know about you?"
+      ],
+      "builder": [
+        "How old are you?",
+        "What is your in game name?",
+        "What platforms do you play on? (Console, iOS, Android, Windows 10)",
+        "What languages can you fluently speak?",
+        "What country are you from?",
+        "What is your current country of residence?",
+        "What is your time zone?",
+        "Are you familiar with World Edit or Blocksniper?",
+        "Why do you want to be a builder?",
+        "Why should we choose you to be a builder?",
+        "Have you been/are a Builder for any other server(s)? If so, name the server(s).",
+        "What is your preferred build style?",
+        "What would you say is your biggest strength in building?",
+        "Describe a map you could build that we might use.",
+        "Link some of your builds below, these must have been created without the assistance of others.",
+        "What else should we know about you?"
+      ],
+      "famous": [
+        "Please link us your social media account that you'd like to get famous from.",
+        "Please link content promoting Versai, typically a youtube video.",
+        "Please send us a link to your account on socialblade. https://socialblade.com/ (If on an unsupported platform you can skip however if you are on an unsupported platform you're unlikely to be accepted.)"
+      ]
+    }
+  },
+  "token": "",
+  "prefix": "~",
+  "icon": "https://raw.githubusercontent.com/versai-network/icons/master/Versai%20New.png",
+  "server_name": "Versai Network"
+}
